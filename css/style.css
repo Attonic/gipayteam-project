@@ -52,7 +52,7 @@ h2{
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-image: url('/assets/img/banner_n.jpg'); 
+    background-image: url("../assets/img/banner_n.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -678,9 +678,6 @@ footer{
     .services-container p{
         font-size: 20px;
     }
-    footer{
-
-    }
 }
 
 @media screen and (max-width: 450px){
@@ -708,16 +705,12 @@ footer{
         padding: 5px;
     }
     .contact-container p{
-        font-size: 15px;
-        
+        font-size: 15px;   
     }
-   
     .contact-container input {
         width: 250px;
         padding: 10px 20px;  
     }
-    
-    .contact-contain 
 
     .text{
         font-size: 10px;
@@ -725,9 +718,7 @@ footer{
     p{
         font-size: 15px;
     }
-   
 
-  
 }
 @media screen and (max-width: 414px){
     .service-name {
@@ -747,7 +738,6 @@ footer{
         text-align: center;  
     }
    
-  
     .options-container{
         max-width: 89%;
         text-align: center; 
