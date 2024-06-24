@@ -1,0 +1,22 @@
+@font-face{
+    font-family: 'sorabold';
+    src: url(/assets/fonts/Sora-Bold.ttf) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'soramedium';
+    src: url(/assets/fonts/Sora-Medium.ttf) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'soralight';
+    src: url(/assets/fonts/Sora-Light.ttf) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
