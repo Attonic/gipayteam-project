@@ -10,8 +10,6 @@ body{
     background-color: #15081e;
     color: #fff;
 }
-
-
 header{
     display: flex;
     align-items: center;
@@ -19,7 +17,6 @@ header{
     background-color: #15081e;
     padding: 10px;
 }
-
 h2{
     text-align: left;
     margin-bottom: 50px;
@@ -249,6 +246,7 @@ margin-bottom: 100px;
 }
 
 .contact-container p{
+    margin-bottom: 100px;
     text-align: left;
     font-size: 25px; 
 }
@@ -356,9 +354,7 @@ footer{
         padding-left: 30px;
         text-align: right;
         font-size: 25px
-    }
-   
-
+    } 
  }
 
  @media screen and (max-width: 1528px){
@@ -505,6 +501,7 @@ footer{
     .about-container img:hover{
         width: 400px;
     }
+   
  }
 
  
@@ -533,24 +530,24 @@ footer{
     .img-gipay{
         display:none;
     }
-   
+    .services-container p{
+        margin-bottom: 50px;
+        
+    }
     .services-box{
         flex-direction: column;
-        width: 100%;
+        margin: 0 auto;
+        align-items: center;
         padding: 0 2rem;
-        height: 1700px;
+        height: 100%;
     }
     .services{
-        padding-left: 180px;
         width: 100%;
-        max-width: 100%;
+        max-width: 50%;
         margin-bottom: 15px;
+        height: auto;
     }
-    .services ul{
-        width: 100%;
-    }
-   
-        
+      
     .service-name {
         font-size: 25px;
         padding: 5px 10px;
@@ -589,21 +586,10 @@ footer{
     }
     
     .services-box{
-        flex-direction: column;
-        width: 100%;
-        padding: 0 2rem;
-        height: 1500px;
+        margin-top: 50px;
     }
-    .services{
-        padding-left: 110px;
-        padding-right: 110ox;
-        width: 100%;
-        max-width: 100%;
-        margin-bottom: 15px;
-    }
-
     .service-name {
-        font-size: 24px;
+        font-size: 22px;
         padding: 5px 10px;
         margin-bottom: 10px;
         background-color: #e3103a;
@@ -618,16 +604,37 @@ footer{
    
  }
 
- @media screen and (max-width: 670px){ 
+ @media screen and (max-width: 750px){ 
+    .services-box img{
+        width: 40px;
+        padding: 0;
+    }
+    .services-container p{
+        margin-bottom: 50px;
+    }
     .services-box{
+        margin-top: 50px;
         flex-direction: column;
-        width: 100%;
+        margin: 0 auto;
+        align-items: center;
         padding: 0 2rem;
-        height: 1500px;
+        height: 100%;
+    
     }
-    .services{
-        padding-left: 8px;
+    .services {
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 20px;
+            height: auto;
     }
+    .service-name{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .texte{
+        font-size: 14px;
+    }
+   
  }
 
  @media screen and (max-width: 622px){
@@ -681,78 +688,86 @@ footer{
 }
 
 @media screen and (max-width: 450px){
-    form{
-        width: 50%;
+    .services-box img{
+        width: 40px;
+        padding: 0;
     }
-    .contact-container textarea{
-        width: 300px;
-        height: 200px;
-    }
-    footer{
-        flex-direction: column;
-        align-items: center;
-        max-width: 100%;
-        text-align: center;
-        
-    }
-    h2{
-        font-size: 20px;
+    .services-container p{
+        margin-bottom: 50px;
     }
     .services-box{
-        padding: 5px;
+        margin-top: 50px;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        padding: 0 2rem;
+        height: 100%;
+    
     }
-    .services-box li{
-        padding: 5px;
+    .services{
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 20px;
+        height: auto;
     }
-    .contact-container p{
-        font-size: 15px;   
+    .service-name{
+        font-size: 20px;
+        padding: 10px;
     }
-    .contact-container input {
-        width: 250px;
-        padding: 10px 20px;  
-    }
-
-    .text{
-        font-size: 10px;
-    }
-    p{
+    .texte{
         font-size: 15px;
     }
+    .contact-container input[type='submit'] {
+        font-size: 15px;
+        padding: 10px 15px;
+        width: 100px;
+        height: 50px;
+        
+    } 
 
-}
-@media screen and (max-width: 414px){
-    .service-name {
-        font-size: 12px; 
+    .form-container{
+        margin-top: 50px;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        padding: 0 2rem;
+        height: 100%;
     }
-    header{
+    .form{
+        width: 100%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    .form-container input, textarea{
+        align-self: center;
+        margin: 0 auto;
         max-width: 100%;
-        text-align: center;
     }
-    .logo-container{    
-    max-width: 89%;
-    text-align: center;  
-    }
-   
-    .about-container{ 
-        max-width: 89%;
-        text-align: center;  
-    }
-   
-    .options-container{
-        max-width: 89%;
-        text-align: center; 
-   
-    }
-    .contact-container{
-        max-width: 89%;
-        text-align: center; 
-    }
-
-    .services-container{
-        max-width: 89%;
-        text-align: center; 
+    .form-container textarea{
+        height: 200px;
     }
     
 
-   
+    footer{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        display: block;
+    }
+
+    .logo-footer{
+        width: px;
+    }
+    .pages li{
+        padding: 2px;
+        margin: 0 auto;
+        max-width: 50%;
+
+    }
+     .logo-container {
+    max-width: 100%;
+    }
+
 }
+
